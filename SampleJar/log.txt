@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building SampleJar 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ SampleJar ---
+[INFO] Deleting D:\Maven\SampleJar\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ SampleJar ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Maven\SampleJar\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ SampleJar ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Maven\SampleJar\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ SampleJar ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Maven\SampleJar\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ SampleJar ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Maven\SampleJar\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ SampleJar ---
+[INFO] Surefire report directory: D:\Maven\SampleJar\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.devops.app.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ SampleJar ---
+[INFO] Building jar: D:\Maven\SampleJar\target\SampleJar-1.jar
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.17:checkstyle (quality) @ SampleJar ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] There are 11 errors reported by Checkstyle 6.11.2 with sun_checks.xml ruleset.
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ SampleJar ---
+[INFO] Installing D:\Maven\SampleJar\target\SampleJar-1.jar to C:\Users\venkatareddy\.m2\repository\com\devops\app\SampleJar\1\SampleJar-1.jar
+[INFO] Installing D:\Maven\SampleJar\pom.xml to C:\Users\venkatareddy\.m2\repository\com\devops\app\SampleJar\1\SampleJar-1.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.854 s
+[INFO] Finished at: 2017-10-30T23:01:55+05:30
+[INFO] Final Memory: 31M/173M
+[INFO] ------------------------------------------------------------------------
