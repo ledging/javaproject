@@ -12,5 +12,6 @@ public class App
         System.out.println( "Login Method!" );
         System.out.println( "Transaction method!" );
         System.out.println( "OTP method!" );
+        System.out.println( "OTP method-2!" );
     }
 }
