@@ -4,7 +4,7 @@
 
 	<groupId>com.devops.app</groupId>
 	<artifactId>SampleJar</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>SampleJar-Practice</name>
 	<description>Its a sample jar for practice maven</description>
