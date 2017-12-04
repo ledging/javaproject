@@ -15,5 +15,6 @@ public class App
         System.out.println( "OTP method-2!" );
 	System.out.println( "BankStatement in PDF report!" );
 	System.out.println( "IMPS method!" );
+	System.out.println( "NEFT method!" );
     }
 }
