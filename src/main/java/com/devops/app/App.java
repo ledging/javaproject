@@ -18,5 +18,6 @@ public class App
 	System.out.println( "NEFT method!" );
 	System.out.println( "NEFT method-2!" );
     	System.out.println( "Bill payments!" );
+	System.out.println( "Loan payments!" );
     }
 }
